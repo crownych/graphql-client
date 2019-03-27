@@ -2,7 +2,7 @@
 
 https://github.com/apollographql/apollo-client
 
-## installation
+## Installation
 
 注意：使用官方的 apollo-boost 會發生 "fetch is not found globally and no fetcher passed" error
 所以不使用 apollo-boost preset package，改用單獨安裝方法
@@ -15,3 +15,7 @@ $ yarn add apollo-boost graphql-tag graphql
 # 自行安裝獨立的 packages
 $ yarn add apollo-client apollo-cache-inmemory apollo-link-http graphql-tag graphql
 ```
+
+## Cache
+
+Client 的資料快取請參考：[Caching data](https://www.apollographql.com/docs/react/advanced/caching)
